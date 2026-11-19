@@ -1,0 +1,36 @@
+---
+title: "Final Project Proposal"
+author: "Emily Zhang"
+date: "2026-11-18"
+format: html
+---
+
+**To:** BST260 Teaching Team, Fall 2026
+
+**From:** Emily Zhang, GitHub: emilyz04
+
+**Re:** Proposal for the final project
+
+## Vignette 1: Waterborne
+
+**Research question.** How does the type of etiologic agent relate to the number of illnesses and deaths in a US waterborne disease outbreak?
+
+**Unit of analysis and population.** The unit is a single reported outbreak. The population is waterborne disease outbreaks reported to CDC in the US, from 1971-2023.
+
+**Exposure.** I will group the many distinct etiology values into a few broader categories, keeping missing or unknown etiology as its own category. I will explore different grouping criteria and etiology statuses.
+
+**Outcome.** The outcome is illnesses and deaths, both of which are continuous.
+
+**Confounders.** I will adjust for water exposure, type, setting, region, and decade, chosen because they affect both which agents occur and how many people are exposed or reported.
+
+## Vignette 2: NHANES
+
+**Research question.** Is physical activity associated with systolic blood pressure among US young adults?
+
+**Unit of analysis and population.** The unit is a survey participant. The population is civilian, non-institutionalized US adults aged 19-40.
+
+**Exposure.** The exposure is PhysActive (yes/no) and PhysActiveDays (0-7), with missing responses excluded in the primary analysis but included in the sensitivity analysis.
+
+**Outcome.** The outcome is BPSysAve, average systolic blood pressure in mm Hg, a continuous variable.
+
+**Confounders.** I will adjust for age, sex, race/ethnicity, smoking, education, and income, and will consider BMI in a secondary model because it is likely on the causal pathway.
